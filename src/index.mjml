@@ -1,0 +1,53 @@
+<mjml>
+    <mj-body>
+<!--section 1 Article 1-->
+        <mj-section>
+            <mj-column>
+             <mj-image src="" alt="" />
+             <mj-text></mj-text>
+             <mj-text> </mj-text>
+             
+            </mj-column>
+            
+        </mj-section>
+<!--section 2 Article 2-->
+        <mj-section>
+            <mj-column>  
+            </mj-column>
+            <mj-column>
+                
+            </mj-column>
+        </mj-section>
+<!--section 3 Article 3-->
+        <mj-section>
+            
+        </mj-section>
+<!--section 4 Footer-->
+    <mj-section>
+        <mj-column>
+    <!--reseaux sociaux-->
+            <mj-text>
+                
+            </mj-text>
+            <mj-social>
+                
+            </mj-social>
+    <!--adresse-->
+            <mj-image src="" alt="" />
+            <mj-text>
+                17 place Charles et Albert Roussel
+            </mj-text>
+            <mj-text>
+                59200 tourcoing
+            </mj-text>
+    <!--reglement-->
+            <mj-text>
+                
+            </mj-text>
+            <mj-text>
+                
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    </mj-body>
+</mjml>
