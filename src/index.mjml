@@ -1,21 +1,61 @@
 <mjml>
-    <mj-body>
+    <mj-head>
+        <mj-title>Relance Parent Parcoursup 042024</mj-title>
+        <mj-font name="Roboto" href="" />
+        <mj-attributes>
+            <mj-all font-family="Roboto, Helvetica, Arial, sans-serif"/>
+            <mj-class name="Text" font-size="16px" font-weight="300" line-height="20px" color="#4A5568"/>
+            <mj-class name="H1" font-size="28px" font-weight="600" line-height="32px" color="#684092" />
+            <mj-class name="H2" font-size="22px" font-weight="600" line-height="26px" color="#684092"/>
+            <mj-button background-color="#BA4995" color="#ffffff" font-size="16px" font-weight="500" line-height="20px" border="none"></mj-button>
+        </mj-attributes>
+        <mj-breakpoint width="480px" />
+    </mj-head>
+    <mj-body background-color="#EDF2F7">
 <!--section 1 Article 1-->
-        <mj-section>
-            <mj-column>
-             <mj-image src="" alt="" />
-             <mj-text></mj-text>
-             <mj-text> </mj-text>
-             
+        <mj-section padding="0" background-color="#ffffff">
+            <mj-column width="600px">
+             <mj-image padding="0" container-background-color="#212121" width="600px" height="240px" src="" alt="" />              
             </mj-column>
-            
+            </mj-section> 
+            <mj-section background-color="#ffffff">            
+            <mj-column width="480px"> 
+             <mj-text mj-class="H1">L'Avenir de votre enfant {{contact.PRENOM}} nous intéresse</mj-text>
+             <mj-text mj-class="Text">Votre enfant s'est inscrit sur Parcoursup, et a montré son intérêt pour notre BTS Assurance en alternance. Son profil a retenu toute notre attention. Aussi nous vous proposons de nous rencontrer pour un entretien de motivation afin de choisir au plus vite l'entreprise où {{contact.PRENOM}} accomplira son alternance !</mj-text>
+            <mj-button>
+                contactez-moi
+            </mj-button>
+            </mj-column>
+         </mj-section>       
+         <mj-section background-color="#FFFFFF">
+            <mj-group>   
+            <mj-column width="50%">
+                <mj-image align="right" width="120px" height="120px" src="" alt="" />
+            </mj-column>    
+            <mj-column width="50%">
+            <mj-text align="left" mj-class="Text">
+                Christian Annaloro
+            </mj-text>
+            <mj-text align="left" mj-class="Text">
+                Responsable pédagogique                
+            </mj-text>
+            <mj-text align="left" mj-class="Text">
+                Ecosup Assurance
+            </mj-text>
+            </mj-column>
+            </mj-group>  
+        </mj-section>
+        <mj-section background-color="#EDF2F7">   
         </mj-section>
 <!--section 2 Article 2-->
-        <mj-section>
-            <mj-column>  
+        <mj-section background-color="#FFFFFF">
+            <mj-column>
+                <mj-text mj-class="H2">
+                    Rencontrons-nous
+                </mj-text>  
             </mj-column>
             <mj-column>
-                
+                <mj-image src="" alt="" />
             </mj-column>
         </mj-section>
 <!--section 3 Article 3-->
@@ -23,7 +63,7 @@
             
         </mj-section>
 <!--section 4 Footer-->
-    <mj-section>
+    <mj-section background-color="#EDF2F7">
         <mj-column>
     <!--reseaux sociaux-->
             <mj-text>
