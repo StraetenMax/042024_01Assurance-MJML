@@ -35,13 +35,16 @@
             </mj-column>    
             <mj-column width="50%">
             <mj-text padding="0 0 0 8px" align="left" mj-class="Text" padding="0">
-                Christian Annaloro
+                Christian <span style="text-transform=uppercase;">Annaloro</span>
             </mj-text>
             <mj-text padding="0 0 0 8px" align="left" mj-class="Text" padding="0">
                 Responsable pédagogique                
             </mj-text>
             <mj-text padding="0 0 0 8px" align="left" mj-class="Text" padding="0">
                 Ecosup Assurance
+            </mj-text>
+            <mj-text padding="0 0 0 8px" align="left" mj-class="Text" padding="0" text-transform="uppercase">
+                tourcoing
             </mj-text>
             </mj-column>
             </mj-group>  
