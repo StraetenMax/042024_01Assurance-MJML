@@ -20,7 +20,7 @@
             </mj-column>
             </mj-section> 
             <mj-section background-color="#ffffff">            
-            <mj-column width="480px"> 
+            <mj-column width="520px"> 
              <mj-text mj-class="H1">L'Avenir de votre enfant {{contact.PRENOM}} nous intéresse</mj-text>
              <mj-text mj-class="Text">Votre enfant s'est inscrit sur Parcoursup, et a montré son intérêt pour notre BTS Assurance en alternance. Son profil a retenu toute notre attention. Aussi nous vous proposons de nous rencontrer pour un entretien de motivation afin de choisir au plus vite l'entreprise où {{contact.PRENOM}} accomplira son alternance !</mj-text>
             <mj-button>
@@ -31,16 +31,16 @@
          <mj-section background-color="#FFFFFF">
             <mj-group>   
             <mj-column width="50%">
-                <mj-image align="right" width="120px" height="120px" src="" alt="" />
+                <mj-image padding="0 8px 0 0" align="right" width="120px" height="120px" src="" alt="" />
             </mj-column>    
             <mj-column width="50%">
-            <mj-text align="left" mj-class="Text">
+            <mj-text padding="0 0 0 8px" align="left" mj-class="Text" padding="0">
                 Christian Annaloro
             </mj-text>
-            <mj-text align="left" mj-class="Text">
+            <mj-text padding="0 0 0 8px" align="left" mj-class="Text" padding="0">
                 Responsable pédagogique                
             </mj-text>
-            <mj-text align="left" mj-class="Text">
+            <mj-text padding="0 0 0 8px" align="left" mj-class="Text" padding="0">
                 Ecosup Assurance
             </mj-text>
             </mj-column>
@@ -50,37 +50,37 @@
         </mj-section>
 <!--section 2 Article 2-->
         <mj-section background-color="#FFFFFF">
-            <mj-column width="232px">
-                <mj-text mj-class="H2">
+            <mj-column width="260px">
+                <mj-text mj-class="H2" align="center">
                     Rencontrons-nous
                 </mj-text>
-                <mj-text mj-class="Text">
+                <mj-text mj-class="Text" align="center">
                     On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme 'Du texte.
                 </mj-text>
-                <mj-button align="right">
+                <mj-button align="center">
                     inscrivez-vous
                 </mj-button>  
             </mj-column>
-            <mj-column width="232px">
-                <mj-image fluid-on-mobile="true" width="232px" height="258px" src="" alt="" />
+            <mj-column width="287px">
+                <mj-image fluid-on-mobile="true" width="232px" height="232px" src="" alt="" />
             </mj-column>
         </mj-section>
         <mj-section background-color="#EDF2F7">
         </mj-section>
 <!--section 3 Article 3-->
         <mj-section background-color="#FFFFFF">
-            <mj-column width="50%" padding="0 0 0 35px">
-                <mj-image fluid-on-mobile="true" width="232px" height="258px" src="" alt="" />  
+            <mj-column width="287px">
+                <mj-image fluid-on-mobile="true" width="232px" height="232px" src="" alt="" />  
             </mj-column>
-            <mj-column width="50%" padding="0 35px 0 0">
-                <mj-text mj-class="H2">
+            <mj-column width="260px">
+                <mj-text mj-class="H2" align="center">
                     Une école, un réseau    
                 </mj-text>
-                <mj-text mj-class="Text">
+                <mj-text mj-class="Text" align="center">
                     On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme 'Du texte.
                 </mj-text>
-                <mj-button align="right">
-                    découvrez nous
+                <mj-button align="center">
+                    découvrez-nous
                 </mj-button>
             </mj-column>
         </mj-section>
@@ -89,7 +89,7 @@
         <mj-column>
     <!--reseaux sociaux-->
             <mj-text align="center" mj-class="H2">
-                suivez-nous
+                Suivez-nous sur
             </mj-text>
             <mj-social >
                 <mj-social-element>
@@ -107,10 +107,10 @@
             </mj-social>
     <!--adresse-->
             <mj-image src="" alt="" />
-            <mj-text align="center" mj-class="footer">
+            <mj-text padding="0" align="center" mj-class="footer">
                 17 place Charles et Albert Roussel
             </mj-text>
-            <mj-text align="center" mj-class="footer">
+            <mj-text padding="0" align="center" mj-class="footer" text-transform="uppercase">
                 59200 tourcoing
             </mj-text>
     <!--reglement-->
