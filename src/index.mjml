@@ -4,9 +4,10 @@
         <mj-font name="Roboto" href="" />
         <mj-attributes>
             <mj-all font-family="Roboto, Helvetica, Arial, sans-serif"/>
-            <mj-class name="Text" font-size="16px" font-weight="300" line-height="20px" color="#4A5568"/>
             <mj-class name="H1" font-size="28px" font-weight="600" line-height="32px" color="#684092" />
             <mj-class name="H2" font-size="22px" font-weight="600" line-height="26px" color="#684092"/>
+            <mj-class name="Text" font-size="16px" font-weight="300" line-height="20px" color="#4A5568"/>
+            <mj-class name="footer" font-size="12px" font-weight="300" line-height="16px" color="#2D3748" />
             <mj-button background-color="#BA4995" color="#ffffff" font-size="16px" font-weight="500" line-height="20px" border="none"></mj-button>
         </mj-attributes>
         <mj-breakpoint width="480px" />
@@ -49,35 +50,67 @@
         </mj-section>
 <!--section 2 Article 2-->
         <mj-section background-color="#FFFFFF">
-            <mj-column>
+            <mj-column width="232px">
                 <mj-text mj-class="H2">
                     Rencontrons-nous
-                </mj-text>  
+                </mj-text>
+                <mj-text mj-class="Text">
+                    On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme 'Du texte.
+                </mj-text>
+                <mj-button align="right">
+                    inscrivez-vous
+                </mj-button>  
             </mj-column>
-            <mj-column>
-                <mj-image src="" alt="" />
+            <mj-column width="232px">
+                <mj-image fluid-on-mobile="true" width="232px" height="258px" src="" alt="" />
             </mj-column>
         </mj-section>
+        <mj-section background-color="#EDF2F7">
+        </mj-section>
 <!--section 3 Article 3-->
-        <mj-section>
-            
+        <mj-section background-color="#FFFFFF">
+            <mj-column width="50%" padding="0 0 0 35px">
+                <mj-image fluid-on-mobile="true" width="232px" height="258px" src="" alt="" />  
+            </mj-column>
+            <mj-column width="50%" padding="0 35px 0 0">
+                <mj-text mj-class="H2">
+                    Une école, un réseau    
+                </mj-text>
+                <mj-text mj-class="Text">
+                    On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme 'Du texte.
+                </mj-text>
+                <mj-button align="right">
+                    découvrez nous
+                </mj-button>
+            </mj-column>
         </mj-section>
 <!--section 4 Footer-->
     <mj-section background-color="#EDF2F7">
         <mj-column>
     <!--reseaux sociaux-->
-            <mj-text>
-                
+            <mj-text align="center" mj-class="H2">
+                suivez-nous
             </mj-text>
-            <mj-social>
-                
+            <mj-social >
+                <mj-social-element>
+                    linkedin
+                </mj-social-element>
+                <mj-social-element>
+                    facebook
+                </mj-social-element>
+                <mj-social-element>
+                    instagram
+                </mj-social-element>
+                <mj-social-element>
+                    youtube
+                </mj-social-element>
             </mj-social>
     <!--adresse-->
             <mj-image src="" alt="" />
-            <mj-text>
+            <mj-text align="center" mj-class="footer">
                 17 place Charles et Albert Roussel
             </mj-text>
-            <mj-text>
+            <mj-text align="center" mj-class="footer">
                 59200 tourcoing
             </mj-text>
     <!--reglement-->
