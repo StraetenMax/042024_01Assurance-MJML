@@ -94,13 +94,13 @@
         </mj-section>
 <!--section 4 Footer-->
     <mj-section background-color="#EDF2F7">
-        <mj-column>
+        <mj-column width="420px">
     <!--reseaux sociaux-->
             <mj-text align="center" mj-class="H2">
                 Suivez-nous sur
             </mj-text>
             <mj-social >
-                <mj-social-element>
+                <mj-social-element >
                     linkedin
                 </mj-social-element>
                 <mj-social-element>
@@ -122,11 +122,14 @@
                 59200 tourcoing
             </mj-text>
     <!--reglement-->
-            <mj-text>
-                
+            <mj-text align="center" padding="25px 0 0 0" mj-class="footer">
+               Pour être sûr(e) de recevoir nos communications, ajoutez contact@ecosup-campus.fr dans votre carnet d'adresses.  
             </mj-text>
-            <mj-text>
-                
+            <mj-text align="center" padding="0" mj-class="footer">
+                Si tu ne visualise pas cet email correctement, clique <a href="{{ mirror }}">ici</a>
+            </mj-text>
+            <mj-text align="center" padding="0" mj-class="footer" text-transform="uppercase">
+                <a href="{{ unsubscribe }}">se désinscrire</a>
             </mj-text>
         </mj-column>
     </mj-section>
