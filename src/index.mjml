@@ -11,6 +11,11 @@
             <mj-button background-color="#BA4995" color="#ffffff" font-size="16px" font-weight="500" line-height="20px" border="none"></mj-button>
         </mj-attributes>
         <mj-breakpoint width="480px" />
+        <mj-style>
+            .hover:hover td, .hover:hover a{ 
+                background-color:#684092 !important;
+            }
+        </mj-style>
     </mj-head>
     <mj-body background-color="#EDF2F7">
 <!--section 1 Article 1-->
@@ -23,7 +28,7 @@
             <mj-column width="520px"> 
              <mj-text mj-class="H1">L'Avenir de votre enfant {{contact.PRENOM}} nous intéresse</mj-text>
              <mj-text mj-class="Text">Votre enfant s'est inscrit sur Parcoursup, et a montré son intérêt pour notre BTS Assurance en alternance. Son profil a retenu toute notre attention. Aussi nous vous proposons de nous rencontrer pour un entretien de motivation afin de choisir au plus vite l'entreprise où {{contact.PRENOM}} accomplira son alternance !</mj-text>
-            <mj-button>
+            <mj-button css-class="hover">
                 contactez-moi
             </mj-button>
             </mj-column>
@@ -60,7 +65,7 @@
                 <mj-text mj-class="Text" align="center">
                     On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme 'Du texte.
                 </mj-text>
-                <mj-button align="center">
+                <mj-button align="center" css-class="hover">
                     inscrivez-vous
                 </mj-button>  
             </mj-column>
@@ -82,7 +87,7 @@
                 <mj-text mj-class="Text" align="center">
                     On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme 'Du texte.
                 </mj-text>
-                <mj-button align="center">
+                <mj-button align="center" css-class="hover">
                     découvrez-nous
                 </mj-button>
             </mj-column>
