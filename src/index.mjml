@@ -26,7 +26,7 @@
             </mj-section> 
             <mj-section background-color="#ffffff">            
             <mj-column width="520px"> 
-             <mj-text mj-class="H1">L'Avenir de votre {{contact.genre}} {{contact.PRENOM}} nous intéresse</mj-text>
+             <mj-text mj-class="H1">L'Avenir de {{contact.PRENOM}} mérite toute notre attention</mj-text>
              <mj-text mj-class="Text">Votre {{contact.genre}} s'est inscrit(e) sur <span style="font-weight:700;">Parcoursup</span>, et a montré son intérêt pour notre <span style="font-weight:700">BTS Assurance en alternance</span>. Son profil a retenu toute notre attention. Aussi nous lui proposons de nous rencontrer pour un <span style="font-weight:700">entretien de motivation</span> afin de choisir au plus vite l'entreprise où {{contact.PRENOM}} accomplira son alternance !</mj-text>
             <mj-button css-class="hover" href="#">
                 contactez-moi
