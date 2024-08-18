@@ -67,7 +67,7 @@
                 </mj-text>
                 <mj-text mj-class="Text" align="center">
                     Profitez de cette <span style="font-weight:700;">journée Portes Ouvertes</span> pour échanger avec nos équipes, découvrir nos formations de l'assurance et de la banque et visiter notre école.
-                    Une <span style="font-weight:700;">rencontre déterminante</span> pour l'avenir de {{contact.Prenom}} !
+                    Une <span style="font-weight:700;">rencontre déterminante</span> pour l'avenir de {{contact.PRENOM}} !
                 </mj-text>
                 <mj-button align="center" css-class="hover" href="https://forms.gle/hnVJ7tYMmDhzwcKi8">
                     inscrivez-vous
